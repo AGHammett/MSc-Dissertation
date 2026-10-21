@@ -1,0 +1,13 @@
+Reinforcement learning from human feedback (RLHF) has become a gold standard for aligning large
+language models (LLMs) with human preferences. However, most existing RLHF algorithms rely on the
+Bradley–Terry (BT) model, which makes unrealistic assumptions about human preferences that often
+fail to capture their complexity and variability in real-world settings.
+Ye et al. (2025) recently proposed variance-reduced preference optimization (VRPO; see references),
+an algorithm designed to improve the sample efficiency and robustness of existing RLHF methods
+under model misspecification. They demonstrated VRPO's strong empirical performance on the IMDb,
+Helpful–Harmless (HH), and TL;DR datasets.
+This project aims to further advance VRPO by improving its computational and statistical efficiency and
+by extending its application to the UltraFeedback dataset, which is more complex than the three
+aforementioned datasets in both data scale and response complexity. The project will be
+codingintensive. Its successful completion is expected to lead to a research paper suitable for
+submission to a (top-tier) machine learning conference or statistical journal

@@ -1,0 +1,23 @@
+A predictive model is multicalibrated if its probability estimates are accurate (calibrated) within every
+group of a specified collection of possibly overlapping subpopulations, such as patients grouped by
+age, sex or condition; among cases given a probability of 70%, for instance, about 70% should occur. A
+common way of summarising this is the largest calibration gap over the groups and over bands of
+predicted probability, restricted to groups above a stated minimum size; this is the target of the
+project. The collection of groups is taken as given and may be very large, with an extension to groups
+defined by a rich function class. Because the largest of many estimated gaps is chosen using the same
+data that estimate it, it is biased upwards, and a confidence interval (a range meant to contain the true
+value with a stated probability, called its coverage) that ignores this selection may fall short of its
+stated coverage. Two existing approaches address related problems. Bootstrap-based bounds that hold
+for every group at once, with asymptotically exact coverage, have been developed for auditing model
+performance over groups, with multicalibration as an application. Separately, inference for the largest
+or smallest value of a collection of estimated quantities has been developed in econometrics, with a
+selection step that shortens the interval. Both guarantees are asymptotic. This project asks, for the
+worst-group calibration gap, how far an interval can be shortened below the one obtained from
+bounds on every group at once, by using the fact that the target is a maximum and the structure of the
+groups, such as nesting and overlap, while keeping its stated coverage. The outcome is a single result:
+either such an interval, with a proof of its coverage and a comparison of its width with the all-groups
+interval and with sample splitting (choosing the worst group on one part of the data and estimating its
+error on the other), or a proof that, for a stated group structure, no valid interval is substantially
+shorter. Deliverables may also include an open-source release of the proposed method. The work
+combines proof and simulation, and suits a student with a strong grounding in probability and
+asymptotic statistics and an interest in the statistical evaluation of machine-learning models.

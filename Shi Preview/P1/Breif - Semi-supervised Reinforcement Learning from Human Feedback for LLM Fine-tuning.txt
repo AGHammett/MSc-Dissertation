@@ -1,0 +1,18 @@
+Semi-supervised Reinforcement Learning from Human Feedback for LLM Fine-tuning
+Supervisor: Dr. Chengchun Shi c.shi7@lse.ac.uk
+We have entered an era of large language models (LLMs), which have rapidly transformed how we
+learn, work and communicate with each other. These models, with billions of parameters, can
+generate remarkably human-like text. Yet, despite their impressive capabilities, ensuring that LLMs
+behave in ways that align with human values – being helpful, honest, and safe – remains one of the
+most urgent challenges in generative artificial intelligence.
+To address this, researchers commonly apply reinforcement learning from human feedback (RLHF) to
+fine-tuning LLMs based on human preferences among multiple responses. However, this approach
+depends heavily on expensive human feedback, often resulting in small labeled datasets. This data
+scarcity can lead to inefficient training and unpredictable model behavior.
+This project studies semi-supervised RLHF — an approach that integrates semi-supervised learning
+(SSL) to enhance existing RLHF algorithms by using both labeled and unlabeled data. While LLMs are
+typically trained with massive amounts of unlabeled text, to our knowledge, SSL has rarely been
+applied to RLHF. Building on recent advances in SSL, this project will leverage the rich information in
+unlabeled data to improve LLM’s alignment with human values. The project will be coding-intensive. Its
+successful completion is expected to lead to a research paper suitable for submission to a (toptier)
+machine learning conference or statistical journal.

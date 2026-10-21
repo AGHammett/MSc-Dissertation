@@ -1,0 +1,18 @@
+What Does a Human-Preference Leaderboard Actually Rank?
+Supervisor: Professor Milan Vojnović, m.vojnovic@lse.ac.uk
+Abstract:
+Leaderboards built from human votes between pairs of model responses, such as Chatbot Arena (now
+LMArena), are widely used to compare models and to inform decisions about their development and
+adoption. Rankings are computed by pooling votes from a self-selected crowd of users into a single
+score for each model. In effect, a model’s score reflects how often it wins against the other models it is
+shown against, averaged over voters. If voters disagree, however, the resulting ranking need not match
+what any particular group of users would conclude, and it may depend on which pairs of models
+happen to be shown. This project asks what such a ranking actually measures and which ranking claims
+can be trusted for other user populations. The student will characterise what the pooled ranking
+estimates when voters are heterogeneous, derive bounds on how a model’s rank could change under
+different or uncertain mixes of users, and develop confidence statements of the form ‘model A ranks
+above model B for every plausible user mix’. The methods will be checked by simulation, applied to
+publicly released leaderboard votes using language and prompt type as observable user segments, and
+tested on a dataset in which the voter groups are known. The work combines theory, simulation and
+data analysis, and suits a student with a strong grounding in likelihood theory and an interest in the
+statistical evaluation of AI systems
