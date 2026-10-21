@@ -52,7 +52,7 @@ Sections:
 4. **What the project would do.** The proposed directions in plain terms.
 5. **What working on it would feel like.** Mostly proofs, coding, experiments, or data work.
 
-## Rules
+## Rulesproofs
 - Don't invent claims about the papers. If something is unclear from the text, say so.
 - Keep your own interpretation clearly separate from what the papers say.
 - British spelling.
