@@ -1,0 +1,15 @@
+Improving Statistical Inference Using External Predictions
+Supervisor: Dr. Oliver Feng, o.feng@lse.ac.uk
+In real-world supervised learning problems, time or resource constraints may limit the availability of
+complete data where both the covariates and responses are recorded, e.g. in image classification
+where manual labelling by human experts is costly. On the other hand, one may also have access to a
+black-box machine learning system or external estimator that yields predictions (e.g. artificial image
+labels) based on covariate input. Given a much larger dataset in which the responses (and possibly also
+the covariates) are missing, it is natural to ask whether the external predictions can be combined with
+the fully labelled data to improve statistical estimation and inference. The aim of this project is to
+explore approaches to this problem that can achieve significant gains, even when the predictions are
+inaccurate and hence should not be incorporated directly as additional covariates or surrogate
+responses. Starting with a comprehensive literature review, a student may wish to compare and/or
+modify existing methodology, conducting theoretical and/or empirical analysis. Another possible
+direction is to explore how to implement and refine these procedures in a specific application area,
+e.g. imaging or biostatistics. 

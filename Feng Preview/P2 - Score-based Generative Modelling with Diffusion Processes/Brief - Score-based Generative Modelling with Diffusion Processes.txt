@@ -1,0 +1,20 @@
+Score-based Generative Modelling with Diffusion Processes
+Supervisor: Dr. Oliver Feng, o.feng@lse.ac.uk
+In machine learning, the aim of generative modelling is to obtain artificial samples that are similar (in
+distribution) to those in a training dataset, which is often a large database of high-dimensional objects
+such as images or videos. There has recently been a surge of interest in procedures that incrementally
+add noise to the training examples and continually learn the *score function* of the noisy data,
+namely the derivative of its log-likelihood. The estimated scores are then used to transform pure noise
+back into a new sample, via Langevin dynamics or more generally a diffusion process defined by a
+stochastic differential equation. Neural network implementations of scorebased algorithms have
+achieved remarkable empirical success, often outperforming other state-of the art methods like
+generative adversarial networks.
+The goal of the project is to explore this rapidly growing field, which has gained significant traction not
+only in the artificial intelligence community but also among statisticians seeking theoretical
+guarantees. The student is expected to give a detailed mathematical exposition of score-based
+generative modelling, including the fundamentals of *score matching* as a key ingredient. One
+possible follow-up direction is to apply and/or adapt the methodology to a generative modelling task
+of the student’s choice, using simulated or real data. It may be of interest to investigate extensions of
+score matching to data on different domains. An alternative option is to survey and perhaps to extend
+some recent mathematical results on diffusion processes and their convergence properties, or the
+accuracy of the samples generated in a nonparametric context

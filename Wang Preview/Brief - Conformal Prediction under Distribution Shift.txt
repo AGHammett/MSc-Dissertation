@@ -1,0 +1,24 @@
+Conformal Prediction under Distribution Shift
+Supervisor: Professor Tengyao Wang, t.wang59@lse.ac.uk
+Conformal prediction provides distribution-free prediction sets with finite-sample marginal coverage
+guarantees under exchangeability (Vovk et al., 2005). However, this assumption is often violated in
+practice: the population encountered after deployment may differ from that used to train and calibrate
+the model. Standard conformal intervals can consequently lose their coverage guarantees.
+Recent methods address this problem under different assumptions about the shift. Under covariate
+shift, importance-weighted conformal prediction reweights calibration observations to represent the
+target population (Tibshirani et al., 2019). Other approaches provide guarantees under nonexchangeable data, use doubly robust calibration, or protect against distributions in a specified
+neighbourhood of the training distribution (Barber et al., 2023; Yang et al., 2024; Cauchois et al., 2024).
+Important practical questions concern estimating importance weights, limited overlap between
+populations, and the trade-off between coverage and interval width.
+In the project, the student will review conformal prediction under distribution shift, implement and
+compare standard, importance-weighted and robust methods through simulations and real datasets.
+Simulations may vary the severity of covariate shift, sample size, heteroscedasticity and source–target
+overlap. Capable students may explore weight truncation, doubly robust calibration, or departures
+from the covariate-shift assumption.
+Prerequisites:
+ A solid background in mathematical statistics, including regression, hypothesis testing and
+asymptotic ideas.
+ Good computational skills in R or Python, including implementing algorithms, running
+simulations and analysing real datasets.
+ Optional but desirable: prior exposure to statistical learning, importance sampling or
+semiparametric methods. 
