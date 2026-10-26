@@ -12,6 +12,7 @@ This is a reading repo for choosing an LSE MSc Statistics dissertation (ST499), 
   - `Vojnovic Preview/P2 - What Does a Human-Preference Leaderboard Actually Rank/`
   - `Wang Preview/P1 - Conformal Prediction under Distribution Shift/`
 - Shared papers: the Shi P1 and P2 folders both contain the same DPO, InstructGPT and VRPO PDFs. Shi P1's PPI is the *Science* version, while Feng P1's is the arXiv version.
+- `Past Examples/` holds 15 past ST499 dissertations (grade in the filename), `expectations.md` (synthesis of what separates the bands) and `Profiles/` (one blind rubric profile per dissertation).
 - `MSc Dissertation Topics List for Students 2026-27.pdf` is the department's full topic list.
 - `LSE Dissertation Topics Deep Dive.md` holds earlier notes covering other supervisors (Itkin, Livieri, …).
 - The `.md` reviews in the `Shi Preview/P*/` folders are earlier AI-written reviews. They are not supervisor material.
